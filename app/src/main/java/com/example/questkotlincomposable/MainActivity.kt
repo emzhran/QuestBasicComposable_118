@@ -18,6 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -48,7 +49,8 @@ fun BasicKotlin(modifier: Modifier = Modifier) {
         modifier = Modifier.fillMaxSize()
     ){
         Text(text = "Login",
-            style = TextStyle(fontSize = 50.sp, fontWeight = FontWeight.Bold)
+            style = TextStyle(fontSize = 50.sp, fontWeight = FontWeight.Bold, fontFamily = FontFamily.Serif),
+            modifier = Modifier.padding(top = 16.dp)
         )
         Text(text = "Ini adalah halaman login")
         Image(painter = painterResource(id = R.drawable.umy), contentDescription = "", Modifier.padding(top = 40.dp).size(200.dp))
