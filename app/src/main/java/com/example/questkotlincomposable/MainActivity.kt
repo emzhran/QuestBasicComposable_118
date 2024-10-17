@@ -52,7 +52,10 @@ fun BasicKotlin(modifier: Modifier = Modifier) {
             style = TextStyle(fontSize = 50.sp, fontWeight = FontWeight.Bold, fontFamily = FontFamily.Serif),
             modifier = Modifier.padding(top = 16.dp)
         )
-        Text(text = "Ini adalah halaman login")
+        Text(text = "Ini adalah halaman login",
+            style = TextStyle(fontSize = 25.sp, fontWeight = FontWeight.Light, fontFamily = FontFamily.SansSerif),
+            modifier = Modifier.padding(top = 16.dp)
+        )
         Image(painter = painterResource(id = R.drawable.umy), contentDescription = "", Modifier.padding(top = 40.dp).size(200.dp))
         Text(text = "Nama")
         Text(text = "Mohammad Zachran Zachary")
