@@ -64,7 +64,10 @@ fun BasicKotlin(modifier: Modifier = Modifier) {
             style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.SemiBold, fontFamily = FontFamily.Serif),
             modifier = Modifier.padding(top = 5.dp)
         )
-        Text(text = "20220140118")
+        Text(text = "20220140118",
+            style = TextStyle(fontSize = 18.sp, fontWeight = FontWeight.SemiBold, fontFamily = FontFamily.Serif),
+            modifier = Modifier.padding(top = 5.dp)
+        )
 
         Image(painter = painterResource(id = R.drawable.emzhrn), contentDescription = "")
 
