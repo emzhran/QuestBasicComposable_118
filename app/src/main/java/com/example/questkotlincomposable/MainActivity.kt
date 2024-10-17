@@ -48,6 +48,6 @@ fun BasicKotlin(modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     QuestKotlinComposableTheme {
-        Greeting("Android")
+        BasicKotlin()
     }
 }
