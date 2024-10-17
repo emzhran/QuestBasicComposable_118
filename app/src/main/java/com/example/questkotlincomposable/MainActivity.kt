@@ -23,8 +23,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestKotlinComposableTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    BasicKotlin(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
