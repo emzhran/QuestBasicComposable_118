@@ -69,7 +69,7 @@ fun BasicKotlin(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(top = 5.dp)
         )
 
-        Image(painter = painterResource(id = R.drawable.emzhrn), contentDescription = "")
+        Image(painter = painterResource(id = R.drawable.emzhrn), contentDescription = "", Modifier.padding(bottom = 20.dp).size(400.dp))
 
     }
 }
