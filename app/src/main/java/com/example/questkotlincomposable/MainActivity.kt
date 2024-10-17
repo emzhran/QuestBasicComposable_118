@@ -57,8 +57,13 @@ fun BasicKotlin(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(top = 16.dp)
         )
         Image(painter = painterResource(id = R.drawable.umy), contentDescription = "", Modifier.padding(top = 40.dp).size(200.dp))
-        Text(text = "Nama")
-        Text(text = "Mohammad Zachran Zachary")
+        Text(text = "Nama",
+            style = TextStyle(fontSize = 18.sp, fontWeight = FontWeight.SemiBold, fontFamily = FontFamily.Serif)
+        )
+        Text(text = "Mohammad Zachran Zachary",
+            style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.SemiBold, fontFamily = FontFamily.Serif),
+            modifier = Modifier.padding(top = 5.dp)
+        )
         Text(text = "20220140118")
 
         Image(painter = painterResource(id = R.drawable.emzhrn), contentDescription = "")
