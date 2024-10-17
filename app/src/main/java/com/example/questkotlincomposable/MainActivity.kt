@@ -55,6 +55,9 @@ fun BasicKotlin(modifier: Modifier = Modifier) {
         Text(text = "Nama")
         Text(text = "Mohammad Zachran Zachary")
         Text(text = "20220140118")
+
+        Image(painter = painterResource(id = R.drawable.emzhrn), contentDescription = "")
+
     }
 }
 
